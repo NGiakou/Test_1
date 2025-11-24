@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CSS Selectors and Specificity Cheat Sheet</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Selector Type</th>
+        <th>Syntax</th>
+        <th>Description</th>
+        <th>Specificity Value (A, B, C)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Type Selector</td>
+        <td><span class="code">element</span></td>
+        <td>Selects all elements with the given tag name.</td>
+        <td>0, 0, 1</td>
+    </tr>
+    <tr>
+        <td>Class Selector</td>
+        <td><span class="code">.class-name</span></td>
+        <td>Selects all elements with a matching class attribute.</td>
+        <td>0, 1, 0</td>
+    </tr>
+    <tr>
+        <td>ID Selector</td>
+        <td><span class="code">#id-name</span></td>
+        <td>Selects the single element with a matching ID attribute.</td>
+        <td>1, 0, 0</td>
+    </tr>
+    <tr>
+        <td>Descendant Combinator</td>
+        <td><span class="code">A B</span></td>
+        <td>Selects element B that is a descendant of element A.</td>
+        <td>(Sum of A's and B's)</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
