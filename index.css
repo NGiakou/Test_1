@@ -1,0 +1,56 @@
+/* --- Global & Body Styles (Custom Color Scheme) --- */
+body {
+    background-color: LightGray;
+    color: DarkSlateGray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: SteelBlue;
+    text-align: center;
+    border-bottom: 2px solid SteelBlue;
+    padding-bottom: 10px;
+}
+
+/* --- Table Styles --- */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid Gray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid Gray;
+}
+
+thead th {
+    background-color: SteelBlue;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7; /* Slightly lighter for readability */
+}
+
+/* --- Custom Styles for Code (Requirement #5) --- */
+.code {
+    /* Monospace Font Family */
+    font-family: 'Courier New', monospace;
+
+    /* Different Background Color */
+    background-color: AliceBlue;
+
+    /* Different Text Color */
+    color: MidnightBlue;
+
+    padding: 2px 5px;
+    border-radius: 3px;
+    white-space: nowrap; /* Prevents long code from wrapping */
+}
